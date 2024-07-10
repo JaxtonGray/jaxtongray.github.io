@@ -1,0 +1,21 @@
+/* Universal Selector */
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Header Section */
+
+/* About me Selector */
+#whoami {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#whoami .image-container img{
+    flex: 2 2 50%;
+    width: 15.625rem;
+    height: auto;
+}
