@@ -13,9 +13,12 @@ html {
     align-items: center;
     width: 100%;
 }
+#whoami .image-container {
+    flex: 2 1 50%;
+}
 
 #whoami .image-container img{
-    flex: 2 2 50%;
-    width: 15.625rem;
+    width: 75%;
+    /*width: 15.625rem;*/
     height: auto;
 }
