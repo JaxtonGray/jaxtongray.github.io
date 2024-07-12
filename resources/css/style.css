@@ -9,16 +9,14 @@ html {
 /* About me Selector */
 #whoami {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 #whoami .image-container {
-    flex: 2 1 50%;
+    margin: 1rem;
 }
 
 #whoami .image-container img{
-    width: 75%;
-    /*width: 15.625rem;*/
+    width: 15.625rem;
     height: auto;
 }
