@@ -17,7 +17,9 @@ header {
     height: 3rem;
     width: 100%;
     background-color: #1900ff;
-    color: #fff;
+    box-shadow: /* Hard to style will come back too */
+        inset 0 -1em 3em rgba(12, 1, 112, 0.568),
+        inset  0 1em 1rem rgba(24, 195, 201, 0.45);
     text-align: center;
 }
 
@@ -36,7 +38,6 @@ header nav ul {
 }
 
 header nav ul li {
-    border: #fff 1px solid;
 }
 
 
