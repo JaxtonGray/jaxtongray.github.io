@@ -16,11 +16,15 @@ header {
     top: 0;
     height: 3rem;
     width: 100%;
-    background-color: #1900ff;
-    box-shadow: /* Hard to style will come back too */
-        inset 0 -1em 3em rgba(12, 1, 112, 0.568),
-        inset  0 1em 1rem rgba(24, 195, 201, 0.45);
+    background-color: rgb(0, 141, 223);
+    box-shadow:
+        inset 0 0 2em rgba(1, 0, 63, 0.719);
     text-align: center;
+}
+
+header nav ul li:hover {
+    background-color: rgb(33, 170, 250);
+    box-shadow: none;
 }
 
 header nav {
@@ -38,7 +42,7 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 0.5rem;
+    padding: 1rem;
     border-right: 1px solid #fff;
 }
 
