@@ -2,17 +2,62 @@
 <html>
 	<head>
 		<title>Projects</title>
-		<link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
 	</head>
 	<body>
 		<!-- Header Bar -->
 		<header>
-			<ul>
-				<li><a href="index.html">About Me</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="skills.html">Skills</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+			<nav>
+				<ul>
+					<li><a href="index.html">About Me</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
 		</header>
+
+		<!-- Projects Content -->
+		<main>
+			<section id="intro">
+				<h1>Projects</h1>
+			</section>
+			<section id="isoP">
+				<h2>IsoP</h2>
+				<p>
+					IsoP is a program that was originally developed by Carly Delvau. It
+					allows the user to estimate isotopic composition of precipitation
+					within Canada given latitude, longitude. The program however, was
+					written originally in MatLab and was not user friendly. I have since
+					rewritten the program in Python and have added a Command Line
+					Interface (CLI) to make it more user friendly.
+				</p>
+			</section>
+			<section id="isoNet">
+				<h2>IsoNet</h2>
+				<h3>Undergraduate Thesis Work</h3>
+				<p>
+					This was a proof of conccept thesis project I developed in my final
+					year of my undergrad. The project uses a Long Short Term Memory (LSTM)
+					neural network to estimate the isotopic composition of precipitation
+					given latitude, longitude, altitude, temperature, and precipitation
+					anywhere in Canada. The project was a success, and is now the basis of
+					my Master's thesis.
+				</p>
+				<h3>Master's Thesis Work</h3>
+				<p>
+					I am currently working on this. It uses the same basic principles of
+					the Undergraduate neural network I developed. However, it is supposed to 
+					work on a global scale, and will use different features to estimate the
+					isotopic composition of precipitation. It will even uses remote sensing tools
+					so the user only needs to input latitude, longitude, and dates.
+				</p>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer>
+			<p>Website created by Jaxton Gray (me!) and hosted on GitHub Pages.</p>
+		</footer>
 	</body>
 </html>
