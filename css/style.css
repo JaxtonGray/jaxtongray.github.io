@@ -38,8 +38,13 @@ header nav ul {
 }
 
 header nav ul li {
+    padding: 0.5rem;
+    border-right: 1px solid #fff;
 }
 
+header nav ul li:last-child {
+    border-right: none;
+}
 
 header nav ul li a {
     color: #fff;
