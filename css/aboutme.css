@@ -1,0 +1,25 @@
+/* CSS just for the about me page */
+
+#whoami {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#whoami .image-container {
+    display: inline;
+    justify-content: center;
+}
+
+#whoami .image-container h1 {
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    top: 1.5rem;
+}
+
+#whoami .image-container img{
+    width: 16rem;
+    height: auto;
+}

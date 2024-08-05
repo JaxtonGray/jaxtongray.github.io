@@ -1,4 +1,4 @@
-/* Universal Selector */
+/* Universal Selectors */
 * {
     margin: 0;
     padding: 0;
@@ -56,19 +56,3 @@ header nav ul li a {
 }
 
 /* Footer Section */
-
-
-/* About me Page */
-#whoami {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-#whoami .image-container {
-    margin: 1rem;
-}
-
-#whoami .image-container img{
-    width: 15.625rem;
-    height: auto;
-}
